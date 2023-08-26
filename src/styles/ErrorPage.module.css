@@ -1,0 +1,17 @@
+.error-page-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.error-page-wrapper p:nth-child(1){
+    font-size: 4rem;
+}
+
+.error-page-wrapper p:nth-child(2){
+    font-size: 1.4rem;
+}

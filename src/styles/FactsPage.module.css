@@ -1,0 +1,31 @@
+.facts-page-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts-page{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #9fa58d 0%, #a1926b 100%);
+}
+
+
+.facts-page-error{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.4rem;
+}
+

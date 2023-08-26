@@ -1,10 +1,10 @@
-import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import '../src/styles/App.css';
+import router from './router';
 
 function App() {
   return (
-    <div >
-    
-    </div>
+    <RouterProvider  router={createBrowserRouter(router)}/>
   );
 }
 
